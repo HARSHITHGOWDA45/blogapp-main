@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# VS Code
+.vscode/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+/static_root
+
+# Secrets
+.env
+*.secret
+
+# Pytest
+.pytest_cache/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pip logs
+pip-log.txt
+
+# MyPy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
